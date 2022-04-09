@@ -8,42 +8,140 @@
    font-weight: normal;
    font-style: normal;
 }
-
+//============================================ Flex ==================
+//.wrapper {
+//   height: 100%;
+//   overflow: hidden;
+//   min-height: 100%;
+//   padding: 50px;
+//}
+//.block {
+//   text-align: left;
+//}
+//.block__row {
+//   border: 20px solid #000;
+//   margin: 0px 0px 20px 0px;
+//}
+//.block__column {
+//   border: 20px solid red;
+//}
+//.block__item {
+//   background-color: blue;
+//   padding: 50px;
+//   font-size: 50px;
+//   color: green;
+//   font-weight: 700;
+//}
+//================================== Practics=====================
 body {
+   height: 100%;
+
    font-family: Lato;
+   font-size: 14px;
 }
 .wrapper {
+   min-height: 100vh;
+   overflow: hidden;
+}
+.binary {
+   min-height: 100vh;
+   background: url("/image/BG-Header.png") 0 0 / cover no-repeat;
+   object-fit: cover;
+}
+.binary__body {
+   margin: 0px auto;
+   min-height: 100%;
+   text-align: center;
+   padding: 274px 0px;
+}
+.binary__logo {
+   width: 100%;
+   text-align: center;
 }
 
-.header {
-   background: url("/image/BG-Header.png") 0 0/100% 100% no-repeat fixed;
-   height: 1282px;
+#title-white {
+   font-family: "Lato";
+   line-height: 40px;
+   color: #ffffff;
+   font-size: 34px;
+   font-weight: 400px;
+   text-align: center;
+   margin: 159px 0px 0px 0px;
+   &:after {
+      content: "";
+      position: absolute;
+      width: 50px;
+      bottom: 0;
+      height: 1px;
+      left: 50%;
+      background-color: #ffffff;
+      margin: 0px 0px 0px -25px;
+   }
 }
-.header__containier {
+#subtitle {
+   font-size: 26px;
+   text-transform: lowercase;
+   font-weight: 900;
+   color: #ffffff;
+   letter-spacing: 5.43px;
+   line-height: normal;
+   position: relative;
+   padding: 0px 0px 30px 0px;
 }
 
-//.header__logo {
-//}
-//.header__title {
-//}
-//.button {
-//}
-//.button-top {
-//}
-//.next {
-//}
-//.header__menu {
-//}
-//.menu {
-//}
-//.menu__body {
-//}
-//.menu__list {
-//}
-//.menu__item {
-//}
-//.menu__link {
-//}
+.read__more-buttons {
+   margin: 120px 0px 0px 0px;
+}
+.read__more-button {
+   transition: all 0.3s ease 0s;
+   font-family: Lato;
+   font-size: 16px;
+   color: #ffffff;
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 0.67px;
+   border: 1px solid #ffffff;
+   padding: 18px 40px;
+}
+.arrow__down {
+   display: inline-block;
+   margin: 75px 0px 150px 0px;
+   text-align: center;
+}
+//================= Menu ============================
+.menu {
+   padding: 10px 0px 10px 0px;
+   text-align: center;
+   margin: 10px 0px 150px 0px;
+}
+.menu__items {
+   display: flex;
+   width: 800px;
+   margin: 0px auto;
+   justify-content: space-between;
+}
+
+.menu__item {
+   border: 1px solid #000;
+   color: #3c3c3c;
+   font-size: 15px;
+   text-transform: uppercase;
+   font-weight: 700;
+   margin: 0px 0px 20px 0px;
+   height: 50px;
+   width: 170px;
+   background-color: yellow;
+   text-align: center;
+   padding: 12.5px 0px 12.5px 0px;
+}
+.item-1 {
+}
+.item-2 {
+}
+.item-3 {
+}
+.item-4 {
+}
 
 //-----------about---------------------------
 
