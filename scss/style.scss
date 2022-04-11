@@ -90,7 +90,7 @@ body {
 }
 
 .read__more-buttons {
-   margin: 120px 0px 0px 0px;
+   margin: 147px 0px 0px 0px;
 }
 .read__more-button {
    transition: all 0.3s ease 0s;
@@ -110,9 +110,8 @@ body {
 }
 //================= Menu ============================
 .menu {
-   padding: 10px 0px 10px 0px;
+   padding: 22px 0px 24px 0px;
    text-align: center;
-   margin: 10px 0px 150px 0px;
 }
 .menu__items {
    display: flex;
@@ -127,12 +126,12 @@ body {
    font-size: 15px;
    text-transform: uppercase;
    font-weight: 700;
-   margin: 0px 0px 20px 0px;
    height: 50px;
    width: 170px;
    background-color: yellow;
    text-align: center;
    padding: 12.5px 0px 12.5px 0px;
+   margin: 0px 0px 130px 0px;
 }
 .item-1 {
 }
@@ -147,8 +146,10 @@ body {
 
 .about {
    &__body {
+      background-color: #ffffff;
       max-width: 823px;
       margin: 0 auto;
+      padding-bottom: 59px;
    }
 
    &__header {
@@ -227,4 +228,24 @@ body {
       font-size: 14px;
       line-height: 26px;
    }
+}
+//======== portfolio ==========================
+
+.portfolio {
+}
+.portfolio__body {
+   padding: 107px 0px 62px 0px;
+   background-color: #f3f3f3;
+}
+.portfolio__header {
+}
+.portfolio__title {
+}
+.portfolio__menu {
+}
+.portfolio__tiles {
+}
+.tiles__items {
+}
+.tiles__item {
 }

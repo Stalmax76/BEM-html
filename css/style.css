@@ -149,7 +149,7 @@ body {
 }
 
 .read__more-buttons {
-  margin: 120px 0px 0px 0px;
+  margin: 147px 0px 0px 0px;
 }
 
 .read__more-button {
@@ -172,9 +172,8 @@ body {
 }
 
 .menu {
-  padding: 10px 0px 10px 0px;
+  padding: 22px 0px 24px 0px;
   text-align: center;
-  margin: 10px 0px 150px 0px;
 }
 
 .menu__items {
@@ -194,17 +193,19 @@ body {
   font-size: 15px;
   text-transform: uppercase;
   font-weight: 700;
-  margin: 0px 0px 20px 0px;
   height: 50px;
   width: 170px;
   background-color: yellow;
   text-align: center;
   padding: 12.5px 0px 12.5px 0px;
+  margin: 0px 0px 130px 0px;
 }
 
 .about__body {
+  background-color: #ffffff;
   max-width: 823px;
   margin: 0 auto;
+  padding-bottom: 59px;
 }
 
 .about__header {
@@ -293,4 +294,9 @@ body {
   font-weight: 300;
   font-size: 14px;
   line-height: 26px;
+}
+
+.portfolio__body {
+  padding: 107px 0px 62px 0px;
+  background-color: #f3f3f3;
 }
